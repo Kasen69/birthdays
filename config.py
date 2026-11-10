@@ -1,11 +1,7 @@
 # config.py
 import os
-from dotenv import load_dotenv
 
-# Завантажуємо локальний .env файл (якщо запускаєте на комп'ютері)
-load_dotenv()
-
-# Отримуємо токен з безпечних змінних середовища
+# Отримуємо токен напряму зі змінних середовища хостингу
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 if not BOT_TOKEN:
