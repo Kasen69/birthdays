@@ -7,4 +7,4 @@ class BirthdayState(StatesGroup):
 
 class EditBirthdayState(StatesGroup):
     waiting_for_new_name = State()
-    waiting_for_new_date = State()s
+    waiting_for_new_date = State()
